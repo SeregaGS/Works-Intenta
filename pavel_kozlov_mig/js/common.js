@@ -63,7 +63,7 @@ $(document).ready(function(){
   });
 
   // Animate scroll
-  $('a[href^="#"]').on('click', function(event) {
+  $('a[href="#arrow"], a[href="#works"], a[href="#better"], a[href="#review"], a[href="#about"], a[href="#contacts"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
     if( target.length ) {
         event.preventDefault();
@@ -100,7 +100,16 @@ $(document).ready(function(){
         type: 'POST',
         data: {name: name, phone: phone},
       success: function(res){
-      $("#forms, #forms-thanks").toggle();
+      $.magnificPopup.close("#forms");
+      $.magnificPopup.open({
+          items: {
+            src: '#forms-thanks'
+            },
+          type: 'inline'
+
+            // You may add options here, they're exactly the same as for $.fn.magnificPopup call
+            // Note that some settings that rely on click event (like disableOn or midClick) will not work here
+          }, 0);
     },
       error: function(){
         alert("Ошибка! Не удалось отправить заявку. Пожалуйста повторите попытку или позвоните по номеру указанному в контактах");
@@ -109,6 +118,10 @@ $(document).ready(function(){
     formmm.find('input[type="text"]').each(function(){
   $(this).val('');
   $(this).removeClass('red_border');
+});
+    $('#closeForm').click(function() {
+      $.magnificPopup.close();
+    $("#forms, #forms-thanks").toggle();
 });
 });
 });

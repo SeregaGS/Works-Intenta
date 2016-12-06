@@ -99,7 +99,7 @@ body {
     .header-top .header-descr .persone-img {
       display: block;
       position: absolute;
-      top: -56px;
+      top: -4px;
       right: 33px;
       max-width: 471px;
       -webkit-animation-delay: .5s;
@@ -267,16 +267,16 @@ body {
       font-size: 20px;
       font-family: "PTAstraSans-Regular";
       padding: 35px 20px 36px 20px;
-      -webkit-transition: all 0.1s ease;
-      transition: all 0.1s ease;
       display: inline-block;
       width: 100%;
       border-bottom: 1px solid #95805C;
       background-color: #ffffff;
       min-height: 100px;
       max-height: 100px;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease; }
+      -webkit-transition: -webkit-transform 0.02s ease;
+      transition: -webkit-transform 0.02s ease;
+      transition: transform 0.02s ease;
+      transition: transform 0.02s ease, -webkit-transform 0.02s ease, -moz-transform 0.02s ease; }
       .wrapp-column .column-ul a:hover {
         text-decoration: none;
         -webkit-transform: scale(1.03);
@@ -406,9 +406,9 @@ body {
 
 .subscribe-button {
   background-color: #ffffff;
-  -webkit-box-shadow: 10px 10px 30px #e8e8e8, 0px -10px 30px #e8e8e8;
-     -moz-box-shadow: 10px 10px 30px #e8e8e8, 0px -10px 30px #e8e8e8;
-          box-shadow: 10px 10px 30px #e8e8e8, 0px -10px 30px #e8e8e8;
+  -webkit-box-shadow: 10px 10px 30px #e8e8e8;
+     -moz-box-shadow: 10px 10px 30px #e8e8e8;
+          box-shadow: 10px 10px 30px #e8e8e8;
   padding: 36px 0px 51px 40px;
   position: absolute;
   left: 53%;
@@ -517,9 +517,9 @@ body {
       left: 5px;
       z-index: 35;
       text-align: center;
-      -webkit-box-shadow: -10px -10px 30px #e8e8e8, 0px 10px 30px #e8e8e8;
-         -moz-box-shadow: -10px -10px 30px #e8e8e8, 0px 10px 30px #e8e8e8;
-              box-shadow: -10px -10px 30px #e8e8e8, 0px 10px 30px #e8e8e8;
+      -webkit-box-shadow: -10px -10px 30px #e8e8e8;
+         -moz-box-shadow: -10px -10px 30px #e8e8e8;
+              box-shadow: -10px -10px 30px #e8e8e8;
       padding: 17px;
       background-color: #ffffff;
       height: 592px; }
@@ -782,6 +782,9 @@ body {
       line-height: 20px;
       font-family: "PTAstraSerif-Regular";
       font-weight: 400; }
+
+#forms-thanks > .forms {
+  padding: 142px 0 111px 0; }
 
 input {
   display: block;

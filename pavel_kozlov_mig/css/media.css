@@ -279,9 +279,9 @@
       margin-bottom: 30px; }
   .button-form {
     margin-top: 30px; }
-  #forms-thanks .forms {
-    padding-top: 128px;
-    padding-bottom: 128px; } }
+  #forms-thanks > .forms {
+    padding-top: 112px;
+    padding-bottom: 112px; } }
 
 @media only screen and (max-width: 530px) {
   .header-top {
