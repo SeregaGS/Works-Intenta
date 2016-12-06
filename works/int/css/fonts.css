@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Fontfabric - MullerBlack";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerBlack.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerBlackItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerBlackItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerBold";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerBold.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerBoldItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerBoldItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerExtraBold";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerExtraBold.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerExtraBoldItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerExtraBoldItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerHairline";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerHairline.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerHairlineItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerHairlineItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerHeavy";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerHeavy.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerHeavyItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerHeavyItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerLight";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerLight.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerLightItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerLightItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerMedium";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerMedium.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerMediumItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerMediumItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerRegular";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerRegular.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerRegularItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerRegularItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerThin";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerThin.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerThinItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerThinItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerUltraLight";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerUltraLight.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - MullerUltraLightItalic";
+  src: url("../fonts/Muller_Font/Fontfabric - MullerUltraLightItalic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA15Thin-Italic";
+  src: url("../fonts/CoreSans/CoreSansA15Thin-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA15Thin";
+  src: url("../fonts/CoreSans/CoreSansA15Thin.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA25ExtraLight-Italic";
+  src: url("../fonts/CoreSans/CoreSansA25ExtraLight-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA25ExtraLight";
+  src: url("../fonts/CoreSans/CoreSansA25ExtraLight.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA35Light-Italic";
+  src: url("../fonts/CoreSans/CoreSansA35Light-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA35Light";
+  src: url("../fonts/CoreSans/CoreSansA35Light.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA45Regular-Italic";
+  src: url("../fonts/CoreSans/CoreSansA45Regular-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA45Regular";
+  src: url("../fonts/CoreSans/CoreSansA45Regular.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA55Medium-Italic";
+  src: url("../fonts/CoreSans/CoreSansA55Medium-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA55Medium";
+  src: url("../fonts/CoreSans/CoreSansA55Medium.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA65Bold-Italic";
+  src: url("../fonts/CoreSans/CoreSansA65Bold-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA65Bold";
+  src: url("../fonts/CoreSans/CoreSansA65Bold.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA75ExtraBold-Italic";
+  src: url("../fonts/CoreSans/CoreSansA75ExtraBold-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA75ExtraBold";
+  src: url("../fonts/CoreSans/CoreSansA75ExtraBold.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA85Heavy-Italic";
+  src: url("../fonts/CoreSans/CoreSansA85Heavy-Italic.otf"); }
+
+@font-face {
+  font-family: "Fontfabric - CoreSansA85Heavy";
+  src: url("../fonts/CoreSans/CoreSansA85Heavy.otf"); }
