@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "PTAstraSans-Regular";
+  src: url("../fonts/PTAstra/PTAstraSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "PTAstraSans-Bold";
+  src: url("../fonts/PTAstra/PTAstraSans-Bold.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "PTAstraSerif-Bold";
+  src: url("../fonts/PTAstra/PTAstraSerif-Bold.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "PTAstraSerif-Italic";
+  src: url("../fonts/PTAstra/PTAstraSerif-Italic.ttf") format("truetype");
+  font-style: normal; }
+
+@font-face {
+  font-family: "PTAstraSerif-Regular";
+  src: url("../fonts/PTAstra/PTAstraSerif-Regular.ttf") format("truetype");
+  font-style: normal; }
