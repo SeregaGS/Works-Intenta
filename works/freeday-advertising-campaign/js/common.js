@@ -12,7 +12,7 @@ $(document).ready(function() {
     type: 'image'
   });
 
-  $("#tel").mask("8(999)-999-9999");
+  $("input[type=tel]").mask("8(999)-999-9999");
 
   $('.headerTopSB').magnificPopup({
     type:'inline'
