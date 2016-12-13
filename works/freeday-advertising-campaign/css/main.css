@@ -722,19 +722,20 @@ img.mfp-img {
   display: inline-block; }
 
 .overlay-call-back {
-  background-color: rgba(171, 171, 171, 0.86);
+  background-color: rgba(171, 171, 171, 0.7);
   height: inherit; }
 
 .descr-call-back {
   position: absolute;
   top: 0;
-  background-color: rgba(255, 97, 69, 0.65);
+  background-color: rgba(255, 97, 69, 0.5);
   margin: 69px 26px 0 26px;
   padding: 25px 18px;
   width: 516px; }
   .descr-call-back h2 {
     color: #ffffff;
-    font-size: 30px; }
+    font-size: 30px;
+    text-shadow: 0px 2px 5px black; }
 
 .call-back-1 .forms, .call-back-2 .forms {
   border: 5px solid #888888;
@@ -780,7 +781,8 @@ img.mfp-img {
       margin-left: -2px; }
 
 .call-back-2 .call-back-img {
-  background-image: url(../img/form-bg-2.png); }
+  background-image: url(../img/form-bg-2.png);
+  background-position: 1px 0; }
 
 /* 12. Дизайн*/
 .design {
@@ -790,6 +792,9 @@ img.mfp-img {
     margin-bottom: 31px; }
 
 /* */
+.logotype .desription-section {
+  margin-top: 19px; }
+
 .logotype .item-pol-wrap {
   margin-bottom: 10px; }
 
