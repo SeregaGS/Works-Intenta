@@ -1,0 +1,518 @@
+@charset "UTF-8";
+/* 0. */
+@import url(../libs/magnific-popup.css);
+body {
+  font-family: "Scada", sans-serif;
+  font-size: 16px;
+  background-color: #ffffff; }
+
+a:hover, a:focus, a:active {
+  text-decoration: none !important; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%; }
+  ul li {
+    display: inline-block; }
+
+h2 {
+  font-family: 'Bender';
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #7f7f7f; }
+
+h3 {
+  font-family: 'Bender';
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0; }
+
+/* 1. Хуадер */
+.headerTop {
+  background-color: #000000;
+  height: 64px;
+  color: #e0e0e0;
+  position: relative;
+  z-index: 0; }
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  top: 31px;
+  z-index: 1;
+  margin-left: 7px; }
+
+.topRightmenu {
+  float: right;
+  margin-top: 16px; }
+
+.social-top {
+  width: 85px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -7px; }
+  .social-top a {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    margin: 0 5px 0 0; }
+    .social-top a:nth-child(1) {
+      background-image: url("../img/sprite-social.png");
+      background-position: 0 17px; }
+    .social-top a:nth-child(2) {
+      background-image: url("../img/sprite-social.png");
+      background-position: 0 0px; }
+    .social-top a:nth-child(3) {
+      background-image: url("../img/sprite-social.png");
+      background-position: 0 44px; }
+    .social-top a:last-child {
+      margin: 0; }
+
+.telephone {
+  display: inline-block; }
+  .telephone:active {
+    color: #ffffff; }
+
+.number {
+  font-family: "Scada", sans-serif;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  display: block;
+  line-height: normal;
+  text-align: right;
+  margin: 0px 9px 0 0; }
+
+.headerTopSB {
+  color: #e0e0e0;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  line-height: 12px;
+  padding: 1px 4px 4px 4px;
+  display: block; }
+  .headerTopSB:hover, .headerTopSB:focus {
+    color: #e0e0e0;
+    outline: none; }
+  .headerTopSB:active {
+    color: #ffffff; }
+
+/* 2. Навигация */
+.navigation {
+  margin: 46px 0 20px 0;
+  font-family: 'Bender';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px; }
+  .navigation a {
+    color: #7f7f7f; }
+    .navigation a:hover {
+      color: #7f7f7f; }
+  .navigation li {
+    margin-right: 40px; }
+    .navigation li:last-child {
+      margin-right: 0; }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0px;
+  -webkit-box-shadow: -2px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 3px 6px 0px rgba(0, 0, 0, 0.2);
+  z-index: 40;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  height: 71px;
+  padding-top: 10px; }
+  .sticky span {
+    display: block;
+    height: 30px;
+    margin: -10px 0 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -66px; }
+
+.tel-hid {
+  display: none; }
+
+/* 3. Слайдер */
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+/* display none until init */
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y; }
+
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px); }
+
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out; }
+
+.owl-carousel .owl-item {
+  float: left; }
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer; }
+
+.owl-controls {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent; }
+
+/* mouse grab icon */
+.grabbing {
+  cursor: url(grabbing.png) 8 8, move; }
+
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0); }
+
+.slider {
+  background-image: url(../img/pattern-slider.png); }
+
+.slider-overl {
+  background-color: rgba(255, 255, 255, 0.75);
+  height: inherit; }
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  background-image: url(../img/sprite-button-slider.png);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 32px; }
+
+.owl-prev {
+  background-position: 0px 0;
+  top: 50%;
+  left: 8px;
+  margin-top: -9px; }
+
+.owl-next {
+  position: absolute;
+  background-position: -17px 0;
+  top: 50%;
+  right: 8px;
+  margin-top: -9px; }
+
+/* 4. Секция "Наружная реклама" */
+.outdoor-advertising {
+  margin-top: 33px; }
+  .outdoor-advertising .desription-section p {
+    margin: 0 67px 0 63px; }
+
+.desription-section {
+  text-align: center; }
+  .desription-section h2 {
+    margin-bottom: 27px; }
+  .desription-section p {
+    font-family: 'Bender';
+    font-size: 18px;
+    color: #000000;
+    line-height: 22px; }
+
+.items {
+  margin: 36px 0px 0 0; }
+  .items .decr-items h3 {
+    margin: 13px 0 0 0; }
+  .items .decr-items p {
+    font-family: 'Bender';
+    font-size: 18px;
+    line-height: 18px; }
+
+/* 5.Секция "Оформления зданий" */
+.integrated-design {
+  margin-top: 20px; }
+  .integrated-design .img-items {
+    margin-top: 18px; }
+
+/* 6. Секция обратного звонка */
+.call-back {
+  margin: 44px 0 38px 0; }
+
+.forms input {
+  width: 281px;
+  height: 40px;
+  border: 1px solid #888888;
+  border-radius: 2px;
+  margin-left: 10px;
+  margin-bottom: -5px;
+  padding-left: 15px;
+  font-family: 'Bender'; }
+
+.forms input[placeholder] {
+  font-size: 14px; }
+
+.forms button {
+  margin-left: 10px;
+  width: 280px;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fffffb), color-stop(74%, #d8e1e7), to(#a4a4a3));
+  background: -webkit-linear-gradient(top, #fffffb 0%, #d8e1e7 74%, #a4a4a3 100%);
+  background: linear-gradient(to bottom, #fffffb 0%, #d8e1e7 74%, #a4a4a3 100%);
+  -webkit-box-shadow: -1px -1px 1px #cfcfcf, 1px 1px 1px #cfcfcf, inset 0px -2px 3px #000000;
+  box-shadow: -1px -1px 1px #cfcfcf, 1px 1px 1px #cfcfcf, inset 0px -2px 3px #000000;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Bender';
+  font-weight: 700;
+  font-size: 21px;
+  text-transform: uppercase;
+  cursor: pointer; }
+  .forms button:active {
+    color: #7f7f7f; }
+  .forms button:focus {
+    outline: none; }
+
+/* 7. Секция "Печать наружной рекламы" */
+.print-advertising .desription-section h2 {
+  margin-bottom: 33px; }
+
+.print-advertising .items {
+  margin-top: 23px; }
+
+/* 8. Секция "Полиграфия" */
+.polygraphy, .souvenirs, .logotype {
+  margin-top: 16px; }
+  .polygraphy .desription-section h2, .souvenirs .desription-section h2, .logotype .desription-section h2 {
+    margin-bottom: 37px; }
+  .polygraphy .desription-section p, .souvenirs .desription-section p, .logotype .desription-section p {
+    margin: 0 133px 0 130px; }
+  .polygraphy .item-pol-wrap, .souvenirs .item-pol-wrap, .logotype .item-pol-wrap {
+    margin: 42px 0 66px 0;
+    display: inline-block; }
+  .polygraphy .item-pol, .souvenirs .item-pol, .logotype .item-pol {
+    height: 106px;
+    margin-bottom: 15px; }
+
+.mfp-bg {
+  background: rgba(11, 11, 11, 0.75); }
+
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+  background-image: url(../img/close.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  font-size: 0;
+  width: 38px;
+  height: 35px; }
+
+/* 9. Форма отправки */
+.call-back-img {
+  width: 570px;
+  height: 320px;
+  background-image: url(../img/form-bg-1.png);
+  position: relative;
+  z-index: 5;
+  display: inline-block; }
+
+.overlay-call-back {
+  background-color: rgba(171, 171, 171, 0.86);
+  height: inherit; }
+
+.descr-call-back {
+  position: absolute;
+  top: 0;
+  background-color: rgba(255, 97, 69, 0.65);
+  margin: 69px 26px 0 26px;
+  padding: 25px 18px;
+  width: 516px; }
+  .descr-call-back h2 {
+    color: #ffffff;
+    font-size: 30px; }
+
+.call-back-1 .forms, .call-back-2 .forms {
+  border: 5px solid #888888;
+  float: right;
+  display: inline-block;
+  width: 390px;
+  text-align: center;
+  height: 320px;
+  padding: 28px 28px 0 28px; }
+  .call-back-1 .forms h3, .call-back-2 .forms h3 {
+    font-size: 24px;
+    margin-bottom: 19px; }
+  .call-back-1 .forms input, .call-back-2 .forms input {
+    width: 100%;
+    margin-bottom: 23px;
+    margin-left: 0; }
+  .call-back-1 .forms button, .call-back-2 .forms button {
+    width: 100%;
+    height: 49px;
+    margin-left: 0;
+    margin-top: 8px;
+    font-size: 24px;
+    border-radius: 28px; }
+
+/* 10. Секция BTL*/
+.btl {
+  margin-top: 29px; }
+  .btl .desription-section h2 {
+    margin-bottom: 34px; }
+  .btl .items {
+    margin-top: 21px; }
+
+/* 11. Сувениры*/
+.souvenirs {
+  margin: 55px 0 50px 0; }
+  .souvenirs .item-souvenirs-wrap {
+    margin: 40px 15px 0 15px;
+    padding: 10px 15px 0 0;
+    display: inline-block;
+    background-color: #cacaca; }
+    .souvenirs .item-souvenirs-wrap .item-pol {
+      margin-bottom: 10px;
+      margin-left: -2px; }
+
+.call-back-2 .call-back-img {
+  background-image: url(../img/form-bg-2.png); }
+
+/* 12. Дизайн*/
+.design {
+  margin: 35px 0 0 0; }
+  .design .desription-section h2 {
+    margin-top: 22px;
+    margin-bottom: 31px; }
+
+/* */
+.logotype .item-pol-wrap {
+  margin-bottom: 10px; }
+
+/* 13. О нас*/
+.thankful-wrap {
+  display: inline-block;
+  margin: 10px 0 20px 0;
+  width: 100%; }
+
+.thankful {
+  width: 127px;
+  height: 172px;
+  float: left;
+  display: inline-block;
+  margin-right: 16px; }
+  .thankful:nth-child(7) {
+    margin-right: 0; }
+
+.partners {
+  text-align: center; }
+  .partners img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: -webkit-filter .3s ease;
+    transition: -webkit-filter .3s ease;
+    transition: filter .3s ease;
+    transition: filter .3s ease, -webkit-filter .3s ease;
+    cursor: pointer; }
+    .partners img:hover {
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%); }
+
+/* 14. мы находимся */
+.we-are .desription-section h2, .footer-bottom .desription-section h2 {
+  margin-bottom: 30px; }
+
+.we-are .desription-section h3, .footer-bottom .desription-section h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7f7f7f;
+  margin-bottom: 18px; }
+
+.we-are .desription-section span, .footer-bottom .desription-section span {
+  font-size: 14px;
+  font-family: 'Bender';
+  font-weight: 700;
+  color: #7f7f7f;
+  display: block;
+  line-height: 17px; }
+
+.maps {
+  margin-top: 36px;
+  margin-bottom: 32px; }
+  .maps iframe {
+    width: 100%;
+    height: 466px;
+    border: none; }
+
+/* 15. footer */
+.footer-bottom {
+  background-color: #000000;
+  padding: 44px 0; }
+  .footer-bottom .desription-section {
+    text-align: inherit; }
+    .footer-bottom .desription-section span {
+      color: #ffffff;
+      line-height: 18px; }
+    .footer-bottom .desription-section .social-top {
+      margin-top: 12px; }
+  .footer-bottom .right {
+    text-align: right; }
+
+/* 16. hide form */
+.hide-form {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 386px;
+  text-align: center;
+  padding: 43px 30px 30px 30px;
+  position: relative; }
+  .hide-form h3 {
+    font-size: 24px;
+    margin-bottom: 15px; }
+  .hide-form p {
+    font-size: 18px;
+    font-family: 'Bender';
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 26px; }
+  .hide-form input {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 22px; }
+  .hide-form button {
+    width: 100%;
+    margin-top: 24px;
+    font-size: 24px;
+    height: 49px; }
+  .hide-form .mfp-close {
+    position: absolute;
+    font-size: 0;
+    width: 38px;
+    height: 35px;
+    background-image: url(../img/close.png);
+    margin: 10px 12px 0 0; }

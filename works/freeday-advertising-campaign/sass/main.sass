@@ -1,0 +1,414 @@
+@import "colors"
+/* 0. */
+body
+  font-family: "Scada", sans-serif
+  font-size: 16px
+  background-color: $color-hover-top
+
+a
+  &:hover, &:focus, &:active
+    text-decoration: none !important
+ul
+  list-style-type: none
+  padding: 0
+  width: 100%
+  li
+    display: inline-block
+h2
+  font-family: 'Bender'
+  font-weight: 700
+  font-size: 24px
+  text-transform: uppercase
+  color: $color-navigation
+h3
+  font-family: 'Bender'
+  font-weight: 700
+  font-size: 18px
+  color: $header-top-color
+  text-transform: uppercase
+  margin: 0
+@import "../libs/magnific-popup.css"
+/* 1. Хуадер */
+.headerTop
+  background-color: $header-top-color
+  height: 64px
+  color: $header-text-color
+  position: relative
+  z-index: 0
+.logo
+  display: inline-block
+  position: absolute
+  top: 31px
+  z-index: 1
+  margin-left: 7px
+.topRightmenu
+  float: right
+  margin-top: 16px
+.social-top
+  width: 85px
+  display: inline-block
+  vertical-align: top
+  margin-right: -7px
+  a
+    width: 17px
+    height: 17px
+    display: inline-block
+    margin: 0 5px 0 0
+    &:nth-child(1)
+      background-image: url('../img/sprite-social.png')
+      background-position: 0 17px
+    &:nth-child(2)
+      background-image: url('../img/sprite-social.png')
+      background-position: 0 0px
+    &:nth-child(3)
+      background-image: url('../img/sprite-social.png')
+      background-position: 0 44px
+    &:last-child
+      margin: 0
+.telephone
+  display: inline-block
+  &:active
+    color: $color-hover-top
+.number
+  font-family: "Scada", sans-serif
+  font-size: 18px
+  letter-spacing: -0.03em
+  display: block
+  line-height: normal
+  text-align: right
+  margin: 0px 9px 0 0
+.headerTopSB
+  color: $header-text-color
+  border: 1px solid $header-text-color
+  border-radius: 2px
+  line-height: 12px
+  padding: 1px 4px 4px 4px
+  display: block
+  &:hover, &:focus
+    color: $header-text-color
+    outline: none
+  &:active
+    color: $color-hover-top
+/* 2. Навигация */
+.navigation
+  margin: 46px 0 20px 0
+  font-family: 'Bender'
+  font-weight: 700
+  text-transform: uppercase
+  font-size: 18px
+  a
+    color: $color-navigation
+    &:hover
+      color: $color-navigation
+  li
+    margin-right: 40px
+    &:last-child
+      margin-right: 0
+.sticky
+  position: fixed
+  top: 0
+  left: 0
+  margin-top: 0px
+  box-shadow: -2px 3px 6px 0px rgba(0, 0, 0, .2)
+  z-index: 40
+  background-color: #fff
+  width: 100%
+  text-align: center
+  height: 71px
+  padding-top: 10px
+  span
+    display: block
+    height: 30px
+    margin: -10px 0 0 0
+    position: absolute
+    bottom: 0
+    left: 50%
+    margin-left: -66px
+.tel-hid
+  display: none
+/* 3. Слайдер */
+@import "../libs/owl.carousel"
+.slider
+  background-image: url(../img/pattern-slider.png)
+.slider-overl
+  background-color: rgba(255, 255, 255, 0.75)
+  height: inherit
+.owl-prev, .owl-next
+  position: absolute
+  top: 0
+  background-image: url(../img/sprite-button-slider.png)
+  background-size: 32px
+  background-repeat: no-repeat
+  width: 17px
+  height: 32px
+.owl-prev
+  background-position: 0px 0
+  top: 50%
+  left: 8px
+  margin-top: -9px
+.owl-next
+  position: absolute
+  background-position: -17px 0
+  top: 50%
+  right: 8px
+  margin-top: -9px
+/* 4. Секция "Наружная реклама" */
+.outdoor-advertising
+  margin-top: 33px
+  .desription-section
+    p
+      margin: 0 67px 0 63px
+.desription-section
+  text-align: center
+  h2
+    margin-bottom: 27px
+  p
+    font-family: 'Bender'
+    font-size: 18px
+    color: $header-top-color
+    line-height: 22px
+.items
+  margin: 36px 0px 0 0
+  .img-items
+  .decr-items
+    h3
+      margin: 13px 0 0 0
+    p
+      font-family: 'Bender'
+      font-size: 18px
+      line-height: 18px
+/* 5.Секция "Оформления зданий" */
+.integrated-design
+  margin-top: 20px
+  .img-items
+    margin-top: 18px
+/* 6. Секция обратного звонка */
+.call-back
+  margin: 44px 0 38px 0
+.forms
+  input
+    width: 281px
+    height: 40px
+    border: 1px solid $color-input
+    border-radius: 2px
+    margin-left: 10px
+    margin-bottom: -5px
+    padding-left: 15px
+    font-family: 'Bender'
+  input[placeholder]
+    font-size: 14px
+  button
+    margin-left: 10px
+    width: 280px
+    height: 40px
+    background: linear-gradient(to bottom, rgba(255,255,251,1) 0%, rgba(216,225,231,1) 74%, rgba(164,164,163,1) 100%)
+    box-shadow: -1px -1px 1px #cfcfcf, 1px 1px 1px #cfcfcf, inset 0px -2px 3px #000000
+    border: none
+    border-radius: 20px
+    font-family: 'Bender'
+    font-weight: 700
+    font-size: 21px
+    text-transform: uppercase
+    cursor: pointer
+    &:active
+      color: $color-navigation
+    &:focus
+      outline: none
+/* 7. Секция "Печать наружной рекламы" */
+.print-advertising
+  .desription-section
+    h2
+      margin-bottom: 33px
+  .items
+    margin-top: 23px
+/* 8. Секция "Полиграфия" */
+.polygraphy, .souvenirs, .logotype
+  margin-top: 16px
+  .desription-section
+    h2
+      margin-bottom: 37px
+    p
+      margin: 0 133px 0 130px
+  .item-pol-wrap
+    margin: 42px 0 66px 0
+    display: inline-block
+  .item-pol
+    height: 106px
+    margin-bottom: 15px
+.mfp-bg
+  background: rgba(11, 11, 11, 0.75)
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close
+  background-image: url(../img/close.png)
+  background-repeat: no-repeat
+  background-color: transparent
+  font-size: 0
+  width: 38px
+  height: 35px
+/* 9. Форма отправки */
+.call-back-img
+  width: 570px
+  height: 320px
+  background-image: url(../img/form-bg-1.png)
+  position: relative
+  z-index: 5
+  display: inline-block
+.overlay-call-back
+  background-color: rgba(171, 171, 171, 0.86)
+  height: inherit
+.descr-call-back
+  position: absolute
+  top: 0
+  background-color: rgba(255, 97, 69, 0.65)
+  margin: 69px 26px 0 26px
+  padding: 25px 18px
+  width: 516px
+  h2
+    color: $color-hover-top
+    font-size: 30px
+.call-back-1, .call-back-2
+  .forms
+    border: 5px solid $color-input
+    float: right
+    display: inline-block
+    width: 390px
+    text-align: center
+    height: 320px
+    padding: 28px 28px 0 28px
+    h3
+      font-size: 24px
+      margin-bottom: 19px
+    input
+      width: 100%
+      margin-bottom: 23px
+      margin-left: 0
+    button
+      width: 100%
+      height: 49px
+      margin-left: 0
+      margin-top: 8px
+      font-size: 24px
+      border-radius: 28px
+/* 10. Секция BTL*/
+.btl
+  margin-top: 29px
+  .desription-section
+    h2
+      margin-bottom: 34px
+  .items
+    margin-top: 21px
+/* 11. Сувениры*/
+.souvenirs
+  margin: 55px 0 50px 0
+  .item-souvenirs-wrap
+    margin: 40px 15px 0 15px
+    padding: 10px 15px 0 0
+    display: inline-block
+    background-color: $color-suveni
+    .item-pol
+      margin-bottom: 10px
+      margin-left: -2px
+.call-back-2
+  .call-back-img
+    background-image: url(../img/form-bg-2.png)
+/* 12. Дизайн*/
+.design
+  margin: 35px 0 0 0
+  .desription-section
+    h2
+      margin-top: 22px
+      margin-bottom: 31px
+/* */
+.logotype
+  .item-pol-wrap
+    margin-bottom: 10px
+/* 13. О нас*/
+.thankful-wrap
+  display: inline-block
+  margin: 10px 0 20px 0
+  width: 100%
+.thankful
+  width: 127px
+  height: 172px
+  float: left
+  display: inline-block
+  margin-right: 16px
+  &:nth-child(7)
+    margin-right: 0
+.partners
+  text-align: center
+  img
+    filter: grayscale(100%)
+    transition: filter .3s ease
+    cursor: pointer
+    &:hover
+      filter: grayscale(0%)
+/* 14. мы находимся */
+.we-are, .footer-bottom
+  .desription-section
+    h2
+      margin-bottom: 30px
+    h3
+      font-size: 24px
+      font-weight: 700
+      color: $color-navigation
+      margin-bottom: 18px
+    span
+      font-size: 14px
+      font-family: 'Bender'
+      font-weight: 700
+      color: $color-navigation
+      display: block
+      line-height: 17px
+.maps
+  margin-top: 36px
+  margin-bottom: 32px
+  iframe
+    width: 100%
+    height: 466px
+    border: none
+/* 15. footer */
+.footer-bottom
+  background-color: $header-top-color
+  padding: 44px 0
+  .desription-section
+    text-align: inherit
+    span
+      color: $color-hover-top
+      line-height: 18px
+    .social-top
+      margin-top: 12px
+  .right
+    text-align: right
+/* 16. hide form */
+.hide-form
+  margin: 0 auto
+  background-color: $color-hover-top
+  width: 386px
+  text-align: center
+  padding: 43px 30px 30px 30px
+  position: relative
+  h3
+    font-size: 24px
+    margin-bottom: 15px
+  p
+    font-size: 18px
+    font-family: 'Bender'
+    font-weight: 600
+    line-height: 20px
+    margin-bottom: 26px
+  input
+    width: 100%
+    margin-left: 0
+    margin-bottom: 22px
+  button
+    width: 100%
+    margin-top: 24px
+    font-size: 24px
+    height: 49px
+  .mfp-close
+    position: absolute
+    font-size: 0
+    width: 38px
+    height: 35px
+    background-image: url(../img/close.png)
+    margin: 10px 12px 0 0
