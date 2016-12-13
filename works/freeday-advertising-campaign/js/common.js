@@ -12,6 +12,8 @@ $(document).ready(function() {
     type: 'image'
   });
 
+  $("#tel").mask("8(999)-999-9999");
+
   $('.headerTopSB').magnificPopup({
     type:'inline'
   });
@@ -23,10 +25,7 @@ $(document).ready(function() {
          top = $(id).offset().top;
        //анимируем переход на расстояние - top за 1500 мс
        $('body,html').animate({scrollTop: top-100}, 1500);
-
    });
-
-
   var navOffset = $('ul').offset().top
     $(window).on('scroll',function(){
       if($(window).scrollTop() > navOffset){
@@ -35,4 +34,5 @@ $(document).ready(function() {
         $('ul').removeClass('sticky');
       }
     });
+
 });
