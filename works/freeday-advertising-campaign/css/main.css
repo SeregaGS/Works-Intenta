@@ -475,7 +475,7 @@ img.mfp-img {
   .headerTopSB:hover, .headerTopSB:focus {
     color: #e0e0e0;
     outline: none; }
-  .headerTopSB:active {
+  .headerTopSB:active, .headerTopSB:hover {
     color: #ffffff; }
 
 /* 2. Навигация */
@@ -488,7 +488,11 @@ img.mfp-img {
   .navigation a {
     color: #7f7f7f; }
     .navigation a:hover {
-      color: #7f7f7f; }
+      color: #575757; }
+  .navigation a.active {
+    color: #575757; }
+  .navigation a.link {
+    color: #7f7f7f; }
   .navigation li {
     margin-right: 40px; }
     .navigation li:last-child {
@@ -675,6 +679,10 @@ img.mfp-img {
   font-size: 21px;
   text-transform: uppercase;
   cursor: pointer; }
+  .forms button:hover {
+    color: #7f7f7f;
+    -webkit-box-shadow: -1px -1px 1px #cfcfcf, 1px 1px 1px #cfcfcf, inset 0px -2px 3px #636363;
+    box-shadow: -1px -1px 1px #cfcfcf, 1px 1px 1px #cfcfcf, inset 0px -2px 3px #636363; }
   .forms button:active {
     color: #7f7f7f; }
   .forms button:focus {
