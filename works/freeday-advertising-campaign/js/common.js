@@ -19,6 +19,7 @@ $(document).ready(function() {
   });
 
   $("#nav").on("click","a", function (event) {
+
     event.preventDefault();
     var id  = $(this).attr('href'),
        //узнаем высоту от начала страницы до блока на который ссылается якорь
@@ -26,6 +27,7 @@ $(document).ready(function() {
        //анимируем переход на расстояние - top за 1500 мс
        $('body,html').animate({scrollTop: top-100}, 1500);
    });
+
   var navOffset = $('ul').offset().top
     $(window).on('scroll',function(){
       if($(window).scrollTop() > navOffset){
